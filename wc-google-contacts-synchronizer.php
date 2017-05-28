@@ -11,3 +11,12 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: wc_google_contacts_synchronizer
 Domain Path: /languages
 */
+
+require_once '/vendor/autoload.php';
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
+define( 'PLUGIN_ABSPATH', dirname( __FILE__ ) . '/' );
+
