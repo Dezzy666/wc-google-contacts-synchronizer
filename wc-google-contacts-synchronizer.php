@@ -20,3 +20,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'PLUGIN_ABSPATH', dirname( __FILE__ ) . '/' );
 
+include_once( PLUGIN_ABSPATH . 'includes/admin/admin-menu-setup.php');
